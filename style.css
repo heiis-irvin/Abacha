@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-bar{
+    width: 100vw;
+    background-color: #f05334;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: static;
+}
+
+.nav-logo{
+    height: 35px;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-image{
+    width: 70vw;
+    border-bottom: 15px #f05334 solid;
+}
